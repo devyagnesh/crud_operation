@@ -1,0 +1,9 @@
+.card {
+  width: 50rem;
+  padding: 1rem;
+  background-color: #ffffff;
+  flex: 0.4;
+  border-radius: 0.5rem;
+  border: 0.1rem solid #b7b7b7;
+  position: relative;
+}

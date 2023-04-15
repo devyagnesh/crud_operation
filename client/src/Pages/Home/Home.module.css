@@ -1,0 +1,59 @@
+.create_art_btn_wrapper {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  transform: translate(-50%, -50%);
+}
+
+.action_wrapper {
+  position: relative;
+}
+
+.create_art_btn_wrapper__btn {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  background: #393939;
+  color: #e4e4e4;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup {
+  right: 25%;
+  top: -1rem;
+  transform: translate(1%, -100%);
+}
+
+.create_art_btn_wrapper__btn:hover {
+  transition: 0.2s ease;
+  box-shadow: 0 0.5rem 1rem rgb(39, 39, 39, 20%);
+}
+
+.create_art_btn_wrapper__btn:active {
+  transition: 0.2s ease;
+  transform: translateY(5%);
+}
+
+.btn_add {
+  margin: 0.5rem 0;
+  width: 100%;
+  padding: 1rem 0;
+  border: none;
+  outline: none;
+  background: #393939;
+  color: #e6e6e6;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  border-radius: 0.5rem;
+}
+
+.btn_add:hover {
+  transition: 0.5s ease;
+  box-shadow: 0 0.5rem 1rem rgba(39, 39, 39, 20%);
+}

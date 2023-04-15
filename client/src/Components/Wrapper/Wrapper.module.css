@@ -1,0 +1,12 @@
+.wrapper {
+  width: 30rem;
+  padding: 1rem;
+  position: absolute;
+  right: -1.4rem;
+  top: 0;
+  transform: translate(100%, 0%);
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.4rem 1rem rgba(35, 35, 35, 10%);
+  transform-origin: left;
+}

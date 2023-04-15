@@ -1,0 +1,55 @@
+.action_tab {
+  position: absolute;
+  right: -0.5rem;
+  top: 0;
+  transform: translateX(100%);
+  background: #ffffff;
+  border: 0.1rem solid #b7b7b7;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.action_tab > .action_list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.action_list__action_btn {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 2rem;
+}
+
+.action_list__action_btn.danger {
+  color: rgb(240, 3, 54);
+}
+
+.action_list__action_btn.warning {
+  color: rgb(251, 216, 17);
+}
+
+.editable {
+  position: relative;
+}
+
+.btn_update {
+  margin: 0.5rem 0;
+  width: 100%;
+  padding: 1rem 0;
+  border: none;
+  outline: none;
+  background: #393939;
+  color: #e6e6e6;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  border-radius: 0.5rem;
+}
+
+.btn_update:hover {
+  transition: 0.5s ease;
+  box-shadow: 0 0.5rem 1rem rgba(39, 39, 39, 20%);
+}

@@ -1,0 +1,8 @@
+.card_image {
+  max-width: 100%;
+}
+
+.card_image_img {
+  max-width: 100%;
+  border-radius: 0.5rem;
+}

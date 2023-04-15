@@ -1,0 +1,14 @@
+.input__label {
+  display: block;
+  font-size: 1.6rem;
+  margin: 0 0 0.5rem 0;
+}
+
+.input_controller {
+  font-size: 1.6rem;
+  width: 100%;
+  padding: 0.6rem 1rem;
+  border: 0.1rem solid #393939;
+  outline: none;
+  border-radius: 0.5rem;
+}
